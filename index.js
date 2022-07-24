@@ -11,6 +11,7 @@ let socketStream = pino.transport({
   }
 })
 
+socketStream.on('error', () => { /* ignore */ })
 const pinoStreams = [
   {
     level: "debug",

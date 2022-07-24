@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "pino": "^8.1.0",
-    "pino-socket": "^5.0.0"
+    "pino": "^8.3.0",
+    "pino-socket": "^5.1.0"
   }
 }
